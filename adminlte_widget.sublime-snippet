@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<!-- start ${1:browse} -->
+<div class="col-md-6">
+    <!-- small box -->
+    <div class="small-box bg-yellow">
+        <div class="inner">
+            <h3>44</h3>
+            <p>${2:title}</p>
+        </div>
+        <div class="icon">
+            <i class="ion ion-person-add"></i>
+        </div>
+        <a href="#" class="small-box-footer">
+            More info <i class="fa fa-arrow-circle-right"></i>
+        </a>
+    </div>
+</div>
+<!-- end ${1:browse} -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_ltewidget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

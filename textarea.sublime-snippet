@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<!-- start ${1:browse} -->
+<div class="form-group">		
+	<label for="${1:name}">${2:${1/\b(\w)/\U$1/g}}:</label>
+	<textarea class="form-control" rows="5" id="${1}" name="${1}"></textarea>
+</div>
+<!-- end ${1:browse} -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_taf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
